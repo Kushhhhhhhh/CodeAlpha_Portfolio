@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💻 Kush Sharma | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">💻 Kush Sharma</div>
+        <ul class="nav-links">
+            <li><a href="#home">🏠 Home</a></li>
+            <li><a href="#about">👨‍💻 About</a></li>
+            <li><a href="#projects">📂 Projects</a></li>
+            <li><a href="#experience">💼 Experience</a></li>
+            <li><a href="#contact">📧 Contact</a></li>
+        </ul>
+
+        <!-- Menu Icon for Mobile -->
+        <div class="menu-icon" onclick="toggleMenu()">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M3 6h18M3 12h18m-9 6h9" stroke="white" stroke-width="2" stroke-linecap="round" />
+            </svg>
+        </div>
+    </nav>
+
+    <!-- Pop-up Menu for Small Screens -->
+    <div class="popup-menu">
+        <ul>
+            <li><a href="#home">🏠 Home</a></li>
+            <li><a href="#about">👨‍💻 About</a></li>
+            <li><a href="#projects">📂 Projects</a></li>
+            <li><a href="#experience">💼 Experience</a></li>
+            <li><a href="#contact">📧 Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Home Section (Landing) -->
+    <section id="home" class="section home">
+        <div class="left-content">
+            <h1>👋 Hello, I'm Kush Sharma</h1>
+            <p>🚀 A passionate Full Stack Developer, crafting innovative digital experiences.</p>
+            <a href="#projects" class="btn">📂 Explore My Work</a>
+        </div>
+        <div class="right-content">
+            <img src="/my-img.jpeg" alt="my-img">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="content">
+            <h2>👨‍💻 About Me</h2>
+            <p>Greetings! I'm Kush Sharma, a university student with a deep passion for web development. I excel at turning diverse concepts into feature-rich applications, integrating functionality to create exceptional digital experiences.</p>
+
+            <h3>🎓 Education</h3>
+            <p>Bachelor's in Computer Application (Ongoing)<br>Maharishi Dayanand University<br>Graduation Year: 2025</p>
+
+            <h3>🛠️ Skills</h3>
+            <ul>
+                <li>💻 HTML, CSS, Tailwind CSS</li>
+                <li>📝 JavaScript, TypeScript</li>
+                <li>⚛️ React.js, Redux, Next.js</li>
+                <li>🖥️ Node.js, MongoDB, Firebase</li>
+                <li>🔧 Git, Version Control</li>
+            </ul>
+
+            <h3>💼 Experience</h3>
+            <p>
+                <strong>Web Development Intern</strong> - Code Clause<br>
+                - 💡 Developed a fully responsive landing page, ensuring compatibility across all devices.<br>
+                - 🔄 Built a dynamic React app with real-time data fetching, using an exercise API.<br>
+                - 🚀 Implemented asynchronous data fetching and handled errors smoothly.
+            </p>
+
+            <h3>🎨 Hobbies</h3>
+            <p>📚 I love exploring the latest trends in web development and creative coding. In my free time, I work on side projects to refine my skills and keep learning.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="content">
+            <h2>📂 My Projects</h2>
+            <div class="project-grid">
+
+                <div class="project-item">
+                    <h3>📰 AI Summarizer</h3>
+                    <p>Summarize news articles effortlessly by pasting the link and getting concise summaries instantly. This tool helps users save time by quickly understanding the essence of lengthy articles, making it perfect for busy professionals and readers.</p>
+                </div>
+
+                <div class="project-item">
+                    <h3>🗺️ AI Trip Planner</h3>
+                    <p>Generate personalized trips, book hotels, and plan adventures with a minimalist design. This app simplifies trip planning by recommending itineraries and accommodations based on user preferences, ensuring a smooth travel experience.</p>
+                </div>
+
+                <div class="project-item">
+                    <h3>📝 Silent Survey</h3>
+                    <p>A feedback web app that gathers unfiltered, honest insights in an anonymous environment. With a focus on user privacy, this platform allows organizations to collect valuable feedback without revealing the identity of participants.</p>
+                </div>
+
+                <div class="project-item">
+                    <h3>🍽️ Recipe Finder App</h3>
+                    <p>A React app that helps users discover a variety of recipes effortlessly. Whether you're a beginner or a seasoned chef, this app offers a vast collection of recipes, complete with instructions and ingredients, tailored to your taste.</p>
+                </div>
+
+                <div class="project-item">
+                    <h3>🌍 HiLink Travel App UI</h3>
+                    <p>A travel website offering comprehensive services like flights and accommodations. The sleek UI is designed to enhance the booking experience, making travel arrangements simpler and more intuitive for users across the globe.</p>
+                </div>
+
+                <div class="project-item">
+                    <h3>🍣 Sushi Restaurant UI</h3>
+                    <p>A visually appealing restaurant website with animations and smooth transitions. The interface is crafted to deliver a seamless experience for food lovers, allowing them to explore the menu, book tables, and even order online with ease.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience">
+        <div class="content">
+            <h2>💼 Experience</h2>
+            <div class="experience-item">
+                <h3>🌟 Web Development Intern</h3>
+                <h4>Code Clause | Mar 2023 - Apr 2023</h4>
+                <ul>
+                    <li>💻 Developed a fully responsive landing page using HTML, CSS, and JavaScript, ensuring compatibility across various devices and screen sizes.</li>
+                    <li>📊 Built a dynamic React app that integrated an exercise API to provide real-time data on fitness activities.</li>
+                    <li>🔧 Implemented asynchronous data fetching, error handling, and state management using Redux for seamless user interactions.</li>
+                    <li>🚀 Collaborated with senior developers to optimize code and improve website performance, achieving a 25% reduction in load time.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="content">
+            <h2>📧 Contact Me</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">👤 Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">📧 Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">✉️ Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="btn">🚀 Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
